@@ -34,6 +34,29 @@ Reducer: takes current Store and Actions and Updates the state. Should always re
 Middleware
 check think action creator.
 
+RxJS [https://rxjs.dev/api] Everything is functional.
+Useful resources:
+http://reactivex.io/
+RxJS- API for asynchronous prgramming with observable streams.
+Works as well with synchronous programming.
+https://rxmarbles.com/
+
 Observables
+By default will not do anything without subscribers: lazy loading.
+$suffix on observables:
+https://stackoverflow.com/questions/43083577/what-does-sign-at-the-end-of-function-name-indicate/43083604
+https://medium.com/@benlesh/observables-and-finnish-notation-df8356ed1c9b
+Obseevable can be overloaded.
 Observables vs Promises
 https://medium.com/javascript-everyday/javascript-theory-promise-vs-observable-d3087bc1239a
+
+Subjects will work even when there are no subscribers.
+https://rxjs-dev.firebaseapp.com/guide/subject
+https://medium.com/@luukgruijs/understanding-rxjs-subjects-339428a1815b
+https://www.learnrxjs.io/subjects/
+
+RXJS - conclusion
+Consistent API
+Easy to create your own operator
+Functional
+Works quite well with javascript apps.
