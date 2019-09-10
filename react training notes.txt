@@ -1,0 +1,39 @@
+https://babeljs.io/
+https://eslint.org/
+
+Webpack likely to fade away with the development of http2,
+TSLint is not worth your time.
+
+https://kangax.github.io/compat-table/es6/
+https://caniuse.com/usage-table
+
+Command line ESLint
+git commit ESLint rule
+https://codeburst.io/continuous-integration-lint-staged-husky-pre-commit-hook-test-setup-47f8172924fc
+https://medium.com/gits-apps-insight/utilizing-git-hook-by-using-eslint-husky-and-lint-staged-18b6f6f60f1e
+
+
+Single PAge Applications
+Saves us reloading pages.
+Drawbacks: Consider which pages to include in the SPA, separate SPA based on usage [Single Page Modules]. + Consider memory leaks.
+
+React Router
+https://reacttraining.com/react-router/
+https://codeburst.io/getting-started-with-react-router-5c978f70df91
+
+Hash Router works with every browser using the Has part of url
+BrowserRouter: Nice url, not supported by IE9 but most commonly used.
+Using Switch with munltiplr components.
+Add parameters to Routes using  a colon.
+
+What is Redux
+Check out Flux
+Introduces middleware to state management.
+Reducer: takes current Store and Actions and Updates the state. Should always return new state if there's a change to current store. Must be immutable.
+
+Middleware
+check think action creator.
+
+Observables
+Observables vs Promises
+https://medium.com/javascript-everyday/javascript-theory-promise-vs-observable-d3087bc1239a
