@@ -1,0 +1,15 @@
+h1 {
+  margin: 0;
+}
+
+.App {
+  margin: 0 10em;
+}
+
+.App-header {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 3em;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

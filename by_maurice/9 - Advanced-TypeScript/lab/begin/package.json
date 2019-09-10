@@ -1,0 +1,16 @@
+{
+  "name": "typescript-introduction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "author": "Maurice de Beijer",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "1.2.1",
+    "typescript": "3.5.3"
+  }
+}

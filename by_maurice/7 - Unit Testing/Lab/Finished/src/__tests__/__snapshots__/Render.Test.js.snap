@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`All components should render correctly InputText 1`] = `
+<div
+  className="form-group"
+>
+  <label>
+    Title
+  </label>
+  <input
+    className="form-control"
+    onChange={[Function]}
+    type="text"
+    value="Kill Bill"
+  />
+</div>
+`;
+
+exports[`All components should render correctly TextArea 1`] = `
+<div
+  className="form-group"
+>
+  <label>
+    Critics Consensus
+  </label>
+  <textarea
+    className="form-control"
+    id="criticsConsensusInput"
+    onChange={[Function]}
+    rows="5"
+    value="movie.criticsConsensus"
+  />
+</div>
+`;
+
+exports[`All components should render correctly empty MovieEditor 1`] = `
+<form>
+  <div
+    className="form-group"
+  >
+    <label>
+      Title
+    </label>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Overview
+    </label>
+    <textarea
+      className="form-control"
+      id="overviewInput"
+      onChange={[Function]}
+      rows="5"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Release date
+    </label>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      popularity
+    </label>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      vote average
+    </label>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="btn-group"
+  >
+    <button
+      className="btn btn-primary"
+      onClick={[Function]}
+      type="submit"
+    >
+      Save
+    </button>
+    <button
+      className="btn btn-danger"
+      onClick={[Function]}
+    >
+      Cancel
+    </button>
+  </div>
+</form>
+`;
+
+exports[`All components should render correctly empty MoviesList 1`] = `
+<table
+  className="table table-bordered table-striped"
+>
+  <thead>
+    <tr>
+      <th>
+        Title
+      </th>
+      <th />
+    </tr>
+  </thead>
+  <tbody />
+</table>
+`;
+
+exports[`All components should render correctly non empty MovieEditor 1`] = `
+<form>
+  <div
+    className="form-group"
+  >
+    <label>
+      Title
+    </label>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      type="text"
+      value="Kill Bill"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Overview
+    </label>
+    <textarea
+      className="form-control"
+      id="overviewInput"
+      onChange={[Function]}
+      rows="5"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Release date
+    </label>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      popularity
+    </label>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      vote average
+    </label>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="btn-group"
+  >
+    <button
+      className="btn btn-primary"
+      onClick={[Function]}
+      type="submit"
+    >
+      Save
+    </button>
+    <button
+      className="btn btn-danger"
+      onClick={[Function]}
+    >
+      Cancel
+    </button>
+  </div>
+</form>
+`;
+
+exports[`All components should render correctly non empty MoviesList 1`] = `
+<table
+  className="table table-bordered table-striped"
+>
+  <thead>
+    <tr>
+      <th>
+        Title
+      </th>
+      <th />
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Kill Bill
+      </td>
+      <td
+        style={
+          Object {
+            "width": 1,
+          }
+        }
+      >
+        <button
+          className="btn btn-default btn-xs edit-button"
+          onClick={[Function]}
+        >
+          Edit
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

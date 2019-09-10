@@ -1,0 +1,41 @@
+{
+  "name": "react-tooling",
+  "version": "1.0.0",
+  "description": "ReactJS tooling",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "webpack": "webpack --watch",
+    "eslint": "eslint ./app/**/*.js*"
+  },
+  "author": "Maurice de Beijer",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "flux": "3.1.3",
+    "jquery": "3.4.1",
+    "object-assign": "4.1.1",
+    "prop-types": "15.7.2",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-router-dom": "5.0.1",
+    "serve-static": "1.14.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.0",
+    "@babel/plugin-proposal-class-properties": "7.5.0",
+    "@babel/preset-env": "7.5.2",
+    "@babel/preset-react": "7.0.0",
+    "and": "0.0.3",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "8.0.6",
+    "eslint": "6.0.1",
+    "eslint-config-airbnb": "17.1.1",
+    "eslint-plugin-import": "2.18.0",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.14.2",
+    "webpack": "4.35.3",
+    "webpack-cli": "3.3.5"
+  }
+}

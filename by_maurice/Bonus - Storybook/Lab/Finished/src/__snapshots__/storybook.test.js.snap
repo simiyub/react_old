@@ -1,0 +1,1079 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button with some emoji 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "border": "1px solid #eee",
+      "borderRadius": 3,
+      "cursor": "pointer",
+      "fontSize": 15,
+      "margin": 10,
+      "padding": "3px 10px",
+    }
+  }
+  type="button"
+>
+  <span
+    aria-label="so cool"
+    role="img"
+  >
+    😀 😎 👍 💯
+  </span>
+</button>
+`;
+
+exports[`Storyshots Button with text 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "border": "1px solid #eee",
+      "borderRadius": 3,
+      "cursor": "pointer",
+      "fontSize": 15,
+      "margin": 10,
+      "padding": "3px 10px",
+    }
+  }
+  type="button"
+>
+  Hello Button
+</button>
+`;
+
+exports[`Storyshots InputText with an empty input 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    htmlFor="Input"
+  >
+     
+  </label>
+  <input
+    className="form-control"
+    id="Input"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <ul
+    className="list-group"
+  />
+</div>
+`;
+
+exports[`Storyshots InputText with some data 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    htmlFor="Input"
+  >
+    Title:
+  </label>
+  <input
+    className="form-control"
+    id="Input"
+    onChange={[Function]}
+    type="text"
+    value="The value"
+  />
+  <ul
+    className="list-group"
+  />
+</div>
+`;
+
+exports[`Storyshots InputText with state 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    htmlFor="valueInput"
+  >
+    Label:
+  </label>
+  <input
+    className="form-control"
+    id="valueInput"
+    onChange={[Function]}
+    type="text"
+    value="Hello"
+  />
+  <ul
+    className="list-group"
+  />
+</div>
+`;
+
+exports[`Storyshots InputText with state and error 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    htmlFor="valueInput"
+  >
+    Label:
+  </label>
+  <input
+    className="form-control"
+    id="valueInput"
+    onChange={[Function]}
+    type="text"
+    value="Hello"
+  />
+  <ul
+    className="list-group"
+  >
+    <li
+      className="list-group-item list-group-item-warning"
+    >
+      An error
+    </li>
+    <li
+      className="list-group-item list-group-item-warning"
+    >
+      A second error
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots MovieEditPresentation When loading 1`] = `
+<img
+  alt="Loading..."
+  src="/ajax-loader.gif"
+/>
+`;
+
+exports[`Storyshots MovieEditPresentation With an error message 1`] = `
+<div
+  className="alert alert-danger"
+  role="alert"
+>
+  Error: 
+  En error message
+</div>
+`;
+
+exports[`Storyshots MovieEditPresentation With an unauthorized error 1`] = `
+<div
+  className="alert alert-danger"
+  role="alert"
+>
+  Error: 
+  Unauthorized
+</div>
+`;
+
+exports[`Storyshots MovieEditPresentation with Kill Bill 1`] = `
+<form>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="titleInput"
+    >
+      Title
+    </label>
+    <input
+      className="form-control"
+      id="titleInput"
+      onChange={[Function]}
+      type="text"
+      value="Kill Bill: Volume 1"
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="abridgedDirectorsInput"
+    >
+      Directors
+    </label>
+    <input
+      className="form-control"
+      id="abridgedDirectorsInput"
+      onChange={[Function]}
+      type="text"
+      value={
+        Array [
+          "Quentin Tarantino",
+        ]
+      }
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="criticsConsensusInput"
+    >
+      Critics Consensus
+    </label>
+    <textarea
+      className="form-control"
+      id="criticsConsensusInput"
+      onChange={[Function]}
+      rows="5"
+      value="Kill Bill is nothing more than a highly stylized revenge flick. But what style!"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="synopsisInput"
+    >
+      Synopsis
+    </label>
+    <textarea
+      className="form-control"
+      id="synopsisInput"
+      onChange={[Function]}
+      rows="5"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="yearInput"
+    >
+      Release Year
+    </label>
+    <input
+      className="form-control"
+      id="yearInput"
+      onChange={[Function]}
+      type="text"
+      value={2003}
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="mpaaRatingInput"
+    >
+      MPAA Rating
+    </label>
+    <input
+      className="form-control"
+      id="mpaaRatingInput"
+      onChange={[Function]}
+      type="text"
+      value="R"
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="criticsScoreInput"
+    >
+      Critics Score
+    </label>
+    <input
+      className="form-control"
+      id="criticsScoreInput"
+      onChange={[Function]}
+      type="text"
+      value={85}
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="audienceScoreInput"
+    >
+      Audience Score
+    </label>
+    <input
+      className="form-control"
+      id="audienceScoreInput"
+      onChange={[Function]}
+      type="text"
+      value={80}
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="btn-group"
+  >
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      type="submit"
+    >
+      Save
+    </button>
+    <a
+      className="btn btn-danger"
+      href="/movies"
+      onClick={[Function]}
+    >
+      Cancel
+    </a>
+  </div>
+</form>
+`;
+
+exports[`Storyshots MovieEditPresentation with a title error 1`] = `
+<form>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="titleInput"
+    >
+      Title
+    </label>
+    <input
+      className="form-control"
+      id="titleInput"
+      onChange={[Function]}
+      type="text"
+      value="Kill Bill: Volume 1"
+    />
+    <ul
+      className="list-group"
+    >
+      <li
+        className="list-group-item list-group-item-warning"
+      >
+        Some error
+      </li>
+    </ul>
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="abridgedDirectorsInput"
+    >
+      Directors
+    </label>
+    <input
+      className="form-control"
+      id="abridgedDirectorsInput"
+      onChange={[Function]}
+      type="text"
+      value={
+        Array [
+          "Quentin Tarantino",
+        ]
+      }
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="criticsConsensusInput"
+    >
+      Critics Consensus
+    </label>
+    <textarea
+      className="form-control"
+      id="criticsConsensusInput"
+      onChange={[Function]}
+      rows="5"
+      value="Kill Bill is nothing more than a highly stylized revenge flick. But what style!"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="synopsisInput"
+    >
+      Synopsis
+    </label>
+    <textarea
+      className="form-control"
+      id="synopsisInput"
+      onChange={[Function]}
+      rows="5"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="yearInput"
+    >
+      Release Year
+    </label>
+    <input
+      className="form-control"
+      id="yearInput"
+      onChange={[Function]}
+      type="text"
+      value={2003}
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="mpaaRatingInput"
+    >
+      MPAA Rating
+    </label>
+    <input
+      className="form-control"
+      id="mpaaRatingInput"
+      onChange={[Function]}
+      type="text"
+      value="R"
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="criticsScoreInput"
+    >
+      Critics Score
+    </label>
+    <input
+      className="form-control"
+      id="criticsScoreInput"
+      onChange={[Function]}
+      type="text"
+      value={85}
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="audienceScoreInput"
+    >
+      Audience Score
+    </label>
+    <input
+      className="form-control"
+      id="audienceScoreInput"
+      onChange={[Function]}
+      type="text"
+      value={80}
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="btn-group"
+  >
+    <button
+      className="btn btn-primary"
+      disabled={true}
+      type="submit"
+    >
+      Save
+    </button>
+    <a
+      className="btn btn-danger"
+      href="/movies"
+      onClick={[Function]}
+    >
+      Cancel
+    </a>
+  </div>
+</form>
+`;
+
+exports[`Storyshots MovieEditPresentation with an empty movie 1`] = `
+<form>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="titleInput"
+    >
+      Title
+    </label>
+    <input
+      className="form-control"
+      id="titleInput"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="abridgedDirectorsInput"
+    >
+      Directors
+    </label>
+    <input
+      className="form-control"
+      id="abridgedDirectorsInput"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="criticsConsensusInput"
+    >
+      Critics Consensus
+    </label>
+    <textarea
+      className="form-control"
+      id="criticsConsensusInput"
+      onChange={[Function]}
+      rows="5"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="synopsisInput"
+    >
+      Synopsis
+    </label>
+    <textarea
+      className="form-control"
+      id="synopsisInput"
+      onChange={[Function]}
+      rows="5"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="yearInput"
+    >
+      Release Year
+    </label>
+    <input
+      className="form-control"
+      id="yearInput"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="mpaaRatingInput"
+    >
+      MPAA Rating
+    </label>
+    <input
+      className="form-control"
+      id="mpaaRatingInput"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="criticsScoreInput"
+    >
+      Critics Score
+    </label>
+    <input
+      className="form-control"
+      id="criticsScoreInput"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="audienceScoreInput"
+    >
+      Audience Score
+    </label>
+    <input
+      className="form-control"
+      id="audienceScoreInput"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <ul
+      className="list-group"
+    />
+  </div>
+  <div
+    className="btn-group"
+  >
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      type="submit"
+    >
+      Save
+    </button>
+    <a
+      className="btn btn-danger"
+      href="/movies"
+      onClick={[Function]}
+    >
+      Cancel
+    </a>
+  </div>
+</form>
+`;
+
+exports[`Storyshots MovieListPresentation When loading 1`] = `
+<img
+  alt="Loading..."
+  src="/ajax-loader.gif"
+/>
+`;
+
+exports[`Storyshots MovieListPresentation With an empty list 1`] = `
+<table
+  className="table table-bordered table-striped table-hover"
+>
+  <thead
+    className="thead-dark"
+  >
+    <tr>
+      <th>
+        Title
+      </th>
+      <th />
+    </tr>
+  </thead>
+  <tbody />
+</table>
+`;
+
+exports[`Storyshots MovieListPresentation With an error message 1`] = `
+<div
+  className="alert alert-danger"
+  role="alert"
+>
+  Error: 
+  En error message
+</div>
+`;
+
+exports[`Storyshots MovieListPresentation With an unauthorized error 1`] = `
+<div
+  className="alert alert-danger"
+  role="alert"
+>
+  Error: 
+  Unauthorized
+</div>
+`;
+
+exports[`Storyshots MovieListPresentation With some movies 1`] = `
+<table
+  className="table table-bordered table-striped table-hover"
+>
+  <thead
+    className="thead-dark"
+  >
+    <tr>
+      <th>
+        Title
+      </th>
+      <th />
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        127 Hours
+      </td>
+      <td
+        style={
+          Object {
+            "width": 1,
+          }
+        }
+      >
+        <a
+          className="btn btn-default btn-xs edit-button"
+          href="/movie/771028554"
+          onClick={[Function]}
+        >
+          Edit
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        2001: A Space Odyssey
+      </td>
+      <td
+        style={
+          Object {
+            "width": 1,
+          }
+        }
+      >
+        <a
+          className="btn btn-default btn-xs edit-button"
+          href="/movie/9917"
+          onClick={[Function]}
+        >
+          Edit
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Kill Bill: Volume 11111
+      </td>
+      <td
+        style={
+          Object {
+            "width": 1,
+          }
+        }
+      >
+        <a
+          className="btn btn-default btn-xs edit-button"
+          href="/movie/12865"
+          onClick={[Function]}
+        >
+          Edit
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Storyshots MovieRow with Kill Bill 1`] = `
+<table
+  className="table table-bordered"
+>
+  <tbody>
+    <tr>
+      <td>
+        Kill Bill: Volume 1
+      </td>
+      <td
+        style={
+          Object {
+            "width": 1,
+          }
+        }
+      >
+        <a
+          className="btn btn-default btn-xs edit-button"
+          href="/movie/12865"
+          onClick={[Function]}
+        >
+          Edit
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Storyshots MovieRow with an empty movie 1`] = `
+<table
+  className="table table-bordered"
+>
+  <tbody>
+    <tr>
+      <td />
+      <td
+        style={
+          Object {
+            "width": 1,
+          }
+        }
+      >
+        <a
+          className="btn btn-default btn-xs edit-button"
+          href="/movie/undefined"
+          onClick={[Function]}
+        >
+          Edit
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Storyshots MovieRow with long title 1`] = `
+<table
+  className="table table-bordered"
+>
+  <tbody>
+    <tr>
+      <td>
+        Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 Kill Bill: Volume 1 
+      </td>
+      <td
+        style={
+          Object {
+            "width": 1,
+          }
+        }
+      >
+        <a
+          className="btn btn-default btn-xs edit-button"
+          href="/movie/1"
+          onClick={[Function]}
+        >
+          Edit
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Storyshots Welcome to Storybook 1`] = `
+<article
+  style={
+    Object {
+      "fontFamily": "\\"Helvetica Neue\\", Helvetica, \\"Segoe UI\\", Arial, freesans, sans-serif",
+      "lineHeight": 1.4,
+      "margin": 15,
+      "maxWidth": 600,
+    }
+  }
+>
+  <h1>
+    Welcome to storybook
+  </h1>
+  <p>
+    This is a UI component dev environment for your app.
+  </p>
+  <p>
+    We've added some basic stories inside the 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      src/stories
+    </code>
+     directory.
+    <br />
+    A story is a single state of one or more UI components. You can have as many stories as you want.
+    <br />
+    (Basically a story is like a visual test case.)
+  </p>
+  <p>
+    See these sample 
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottom": "1px solid #1474f3",
+          "borderLeft": "none",
+          "borderRight": "none",
+          "borderTop": "none",
+          "color": "#1474f3",
+          "cursor": "pointer",
+          "font": "inherit",
+          "padding": 0,
+          "paddingBottom": 2,
+          "textDecoration": "none",
+        }
+      }
+      type="button"
+    >
+      stories
+    </button>
+     for a component called
+     
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      Button
+    </code>
+    .
+  </p>
+  <p>
+    Just like that, you can add your own components as stories.
+    <br />
+    You can also edit those components and see changes right away.
+    <br />
+    (Try editing the 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      Button
+    </code>
+     stories located at
+     
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      src/stories/index.js
+    </code>
+    .)
+  </p>
+  <p>
+    Usually we create stories with smaller UI components in the app.
+    <br />
+    Have a look at the
+     
+    <a
+      href="https://storybook.js.org/basics/writing-stories"
+      rel="noopener noreferrer"
+      style={
+        Object {
+          "borderBottom": "1px solid #1474f3",
+          "color": "#1474f3",
+          "paddingBottom": 2,
+          "textDecoration": "none",
+        }
+      }
+      target="_blank"
+    >
+      Writing Stories
+    </a>
+     
+    section in our documentation.
+  </p>
+  <p
+    style={
+      Object {
+        "opacity": 0.5,
+      }
+    }
+  >
+    <b>
+      NOTE:
+    </b>
+    <br />
+    Have a look at the 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      .storybook/webpack.config.js
+    </code>
+     to add webpack loaders and plugins you are using in this project.
+  </p>
+</article>
+`;
