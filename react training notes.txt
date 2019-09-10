@@ -1,3 +1,4 @@
+
 https://babeljs.io/
 https://eslint.org/
 
@@ -60,3 +61,14 @@ Consistent API
 Easy to create your own operator
 Functional
 Works quite well with javascript apps.
+
+Better Components
+Options for creating components
+Function based is preferred.
+Problem with class based is the this. this tends to reference the global.
+
+Pure Components
+Pure components but use with care.
+
+https://medium.com/groww-engineering/stateless-component-vs-pure-component-d2af88a1200b
+https://reactjs.org/docs/react-api.html
