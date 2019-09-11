@@ -118,3 +118,46 @@ Best practice
 Small function components.
 Build component trees.
 Manage state using state hooks.
+
+
+Unit testing
+https://jestjs.io/
+https://jestjs.io/docs/en/tutorial-react
+Unit testing for javascript code that will run in a browser.
+Jest runs tests inside a node process.
+Fakes the DOM for tests with JSDom.
+Runs tests in parallel.
+Works with asynchronous code.
+Reruns only relevant tests in development mode.
+Snapshot testing - effectively performing regression testing by comparing snapshot to  latest test.
+Generates coverage reports and you can set threshold to fail if tests fall below the threshold.
+Works well even with complex objects.
+toMatchObject - matches to another Object.
+There are many matchers.
+toBe, toEqual, toMatch
+
+Group tests together
+Setup and Teardown functions: beforeEach, beforeAll, afterEach nd AfterAll.
+
+MOcking dependencies
+individual function or modules: jest.fn(implementation) for individual or jest.Mocjk.
+
+Code Coverage
+Tests have coverage by default.
+ user --coverage while running the test.
+Useful in continous integration tests.
+
+Shallow rendering: One component at a time, not it's children,
+Enzyme provides full rendering.
+
+@testing-library
+Renders components into real DOM elements.
+run cleanup after each test.
+https://github.com/testing-library/jest-dom
+https://testing-library.com/docs/guide-which-query
+
+
+Snapshot testing
+Look into why it failed.
+A common failure is date.
+Snapshot testing  is about the whole object.
