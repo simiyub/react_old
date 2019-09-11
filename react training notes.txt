@@ -161,3 +161,31 @@ Snapshot testing
 Look into why it failed.
 A common failure is date.
 Snapshot testing  is about the whole object.
+
+TypeScript
+Not always backward compatible.
+Install locally, not globally.
+npm run tsc -watch.
+Uses Type inferencng alot.
+Tries to determine variable type based on usage.
+Supports inheritance and Interfaces.
+Interfaces are quite popular with Typescript but being replacd by Type Aliases.
+Typescript comppiler uses structural typing.
+
+Generics
+Generics are more flexible in their usage.
+Use them with caution to avoid complexity.
+
+Superset of ECMASCript 2015.
+Works well with Typescript.
+Easy to get started with.
+
+Advanced TypeScript
+Advanced Types: unknown and never.
+Intersection and Union Types: New types based on existing types.
+Tagged Unions
+Type Guards
+
+
+Maurice contacts:
+maurice.de.beijer@gmail.com
