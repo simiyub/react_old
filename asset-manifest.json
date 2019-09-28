@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/simiyub/react_with_tania_rascia/static/css/main.34de6062.chunk.css",
-    "main.js": "/simiyub/react_with_tania_rascia/static/js/main.6d03df62.chunk.js",
-    "main.js.map": "/simiyub/react_with_tania_rascia/static/js/main.6d03df62.chunk.js.map",
-    "runtime-main.js": "/simiyub/react_with_tania_rascia/static/js/runtime-main.53fe4111.js",
-    "runtime-main.js.map": "/simiyub/react_with_tania_rascia/static/js/runtime-main.53fe4111.js.map",
-    "static/js/2.ebb8b90c.chunk.js": "/simiyub/react_with_tania_rascia/static/js/2.ebb8b90c.chunk.js",
-    "static/js/2.ebb8b90c.chunk.js.map": "/simiyub/react_with_tania_rascia/static/js/2.ebb8b90c.chunk.js.map",
-    "index.html": "/simiyub/react_with_tania_rascia/index.html",
-    "precache-manifest.e336f76a939630fedce158ede6c0dcdb.js": "/simiyub/react_with_tania_rascia/precache-manifest.e336f76a939630fedce158ede6c0dcdb.js",
-    "service-worker.js": "/simiyub/react_with_tania_rascia/service-worker.js",
-    "static/css/main.34de6062.chunk.css.map": "/simiyub/react_with_tania_rascia/static/css/main.34de6062.chunk.css.map"
+    "main.css": "/react_with_tania_rascia/static/css/main.34de6062.chunk.css",
+    "main.js": "/react_with_tania_rascia/static/js/main.6d03df62.chunk.js",
+    "main.js.map": "/react_with_tania_rascia/static/js/main.6d03df62.chunk.js.map",
+    "runtime-main.js": "/react_with_tania_rascia/static/js/runtime-main.58f760af.js",
+    "runtime-main.js.map": "/react_with_tania_rascia/static/js/runtime-main.58f760af.js.map",
+    "static/js/2.ebb8b90c.chunk.js": "/react_with_tania_rascia/static/js/2.ebb8b90c.chunk.js",
+    "static/js/2.ebb8b90c.chunk.js.map": "/react_with_tania_rascia/static/js/2.ebb8b90c.chunk.js.map",
+    "index.html": "/react_with_tania_rascia/index.html",
+    "precache-manifest.302ed6e4ef2c22dbfdf0b5beaaa3b2e6.js": "/react_with_tania_rascia/precache-manifest.302ed6e4ef2c22dbfdf0b5beaaa3b2e6.js",
+    "service-worker.js": "/react_with_tania_rascia/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/react_with_tania_rascia/static/css/main.34de6062.chunk.css.map"
   }
 }
