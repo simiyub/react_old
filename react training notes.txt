@@ -72,3 +72,120 @@ Pure components but use with care.
 
 https://medium.com/groww-engineering/stateless-component-vs-pure-component-d2af88a1200b
 https://reactjs.org/docs/react-api.html
+
+Focused Components
+Limit complexity and do one thing well.
+Don't render DOM elements themselves but presentational components.
+
+Error Boundary as HOC
+
+Render props
+Alternative to HOC
+
+
+Proptypes
+You can define what the props should be like. This should be done at design time.
+Error appears in the developer tools console.
+Only appears the first time the error occurs.
+
+
+Component State
+Data in a component that can change.
+use setState() to mutate the component state.
+State should not be used for values passed into the component from props, or values derived from input props, or values not used in the render function.
+
+Class Component Lifecylce
+PRefer componentDid.. rather than componentWill.. which are due for deprecation.
+
+
+Function COmponents lifecycle
+useEffects are easier to extract than class based lifecycle.
+https://reactjs.org/docs/state-and-lifecycle.html
+Prefer hooks
+https://reactjs.org/docs/hooks-intro.html
+https://reactjs.org/docs/hooks-overview.html
+https://reactjs.org/docs/hooks-state.html
+
+React Context
+React.createContext()
+Can replace Redux without having to pass props.
+e.g. authentication providder or themeing provider.
+Also works in function components.
+
+
+
+Best practice
+Small function components.
+Build component trees.
+Manage state using state hooks.
+
+
+Unit testing
+https://jestjs.io/
+https://jestjs.io/docs/en/tutorial-react
+Unit testing for javascript code that will run in a browser.
+Jest runs tests inside a node process.
+Fakes the DOM for tests with JSDom.
+Runs tests in parallel.
+Works with asynchronous code.
+Reruns only relevant tests in development mode.
+Snapshot testing - effectively performing regression testing by comparing snapshot to  latest test.
+Generates coverage reports and you can set threshold to fail if tests fall below the threshold.
+Works well even with complex objects.
+toMatchObject - matches to another Object.
+There are many matchers.
+toBe, toEqual, toMatch
+
+Group tests together
+Setup and Teardown functions: beforeEach, beforeAll, afterEach nd AfterAll.
+
+MOcking dependencies
+individual function or modules: jest.fn(implementation) for individual or jest.Mocjk.
+
+Code Coverage
+Tests have coverage by default.
+ user --coverage while running the test.
+Useful in continous integration tests.
+
+Shallow rendering: One component at a time, not it's children,
+Enzyme provides full rendering.
+
+@testing-library
+Renders components into real DOM elements.
+run cleanup after each test.
+https://github.com/testing-library/jest-dom
+https://testing-library.com/docs/guide-which-query
+
+
+Snapshot testing
+Look into why it failed.
+A common failure is date.
+Snapshot testing  is about the whole object.
+
+TypeScript
+Not always backward compatible.
+Install locally, not globally.
+npm run tsc -watch.
+Uses Type inferencng alot.
+Tries to determine variable type based on usage.
+Supports inheritance and Interfaces.
+Interfaces are quite popular with Typescript but being replacd by Type Aliases.
+Typescript comppiler uses structural typing.
+
+Generics
+Generics are more flexible in their usage.
+Use them with caution to avoid complexity.
+
+Superset of ECMASCript 2015.
+Works well with Typescript.
+Easy to get started with.
+
+Advanced TypeScript
+Advanced Types: unknown and never.
+Intersection and Union Types: New types based on existing types.
+Tagged Unions
+Type Guards
+
+
+Maurice contacts:
+maurice.de.beijer@gmail.com
