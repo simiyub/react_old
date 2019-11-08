@@ -1,9 +1,11 @@
-function mapChooser( locationName){
-    if(locationName === undefined){
-        locationName='default';
+function MapChooser( locationName){
+    if(!locationName){
+        locationName='none';     
     }
-    return locationName+'.jpg'; 
+    
+    return locationName + ".png";
+    
 }
 
 
-export default mapChooser;
+export default MapChooser;
